@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nyml"
+version = "0.0.1"
+authors = [
+	{ name="Vitaly Sinilin", email="vs+nyml@zhemail.ru" },
+]
+description = "NYML parser"
+readme = "README.md"
+license = { text="MIT" }
+requires-python = ">=3.7"
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: MIT License",
+	"Programming Language :: Python :: 3",
+	"Operating System :: OS Independent",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Topic :: Text Processing :: Markup",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/unterwulf/nyml"
+"Bug Tracker" = "https://github.com/unterwulf/nyml/issues"
